@@ -4,7 +4,7 @@ import http from "@/services/http"
 
 export default function Home() {
 
-  const [data, setData] = useState<{ id: number }>({ id: 0 });
+  const [data, setData] = useState<{ id: any }>({ id: 0 });
 
   useEffect(() => {
     http.get("/books/1").then((response) => {
