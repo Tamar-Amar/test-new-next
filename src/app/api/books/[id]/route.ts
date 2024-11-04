@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-export async function GET(request: Request, params: { params: { id: string } }) {
+export async function GET(request: Request, params: any) {
     const id = params.params.id;
 
     // if you dont receive params from the client:
