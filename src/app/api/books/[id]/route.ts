@@ -7,6 +7,6 @@ export async function GET(request: Request, params: any) {
     // const url = new URL(request.url);
     // const id = url.pathname.split('/').pop();
     return NextResponse.json({
-        id: id + 'hello world',
+        id: id + ' hello world:)',
     });
 }
